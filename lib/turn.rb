@@ -29,3 +29,9 @@ def turn(board)
     turn(board)
   end
 end
+
+def position_taken?(board, index)
+  board[index]== "X" || board[index] == "O"
+end
+
+
